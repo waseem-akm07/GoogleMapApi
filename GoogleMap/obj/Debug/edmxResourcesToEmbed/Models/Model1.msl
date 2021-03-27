@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MvcdbModelStoreContainer" CdmEntityContainer="MvcdbEntities1">
+    <EntitySetMapping Name="MapCoordinates">
+      <EntityTypeMapping TypeName="MvcdbModel.MapCoordinate">
+        <MappingFragment StoreEntitySet="MapCoordinates">
+          <ScalarProperty Name="LoactionName" ColumnName="LoactionName" />
+          <ScalarProperty Name="MapId" ColumnName="MapId" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
